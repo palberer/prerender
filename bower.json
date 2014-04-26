@@ -1,0 +1,24 @@
+{
+  "name": "prerender",
+  "version": "0.0.1",
+  "homepage": "https://github.com/palberer/prerender",
+  "authors": [
+    "peter@alberer.com"
+  ],
+  "description": "example prerender service",
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+      "prerender.io": "https://github.com/prerender/prerender.git",
+      "angular-phonecat": "https://github.com/angular/angular-phonecat.git"
+  }
+}
