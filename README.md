@@ -3,6 +3,8 @@ prerender
 Full example application that shows how to combine several tools to get a prerendering solution
  that allows to provide html snapshots to searchbots for SPA (that would otherwise be invisible for the search engine).
 
+ Note: I tried this on linux (fedora core 20) only.
+
 - uses nginx to host a local copy of the angular-phonecat example application
     - hostname: tutorial.local.dev
     - port: 80
